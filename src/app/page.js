@@ -4,6 +4,8 @@ export default function HomePage() {
     <>
     <section className="text-gray-800">
 
+
+      {/* Welcome Section */}
       <section id="home" className="min-h-screen flex items-center justify-center bg-blue-100 px-4 text-center ">
         <div>
           <h1 className="text-4xl font-bold mb-4">Welcome to Olympus Painters</h1>
@@ -11,6 +13,8 @@ export default function HomePage() {
         </div>
       </section>
 
+
+      {/* About Section */}
       <section id="about" className="min-h-screen flex items-center justify-center bg-white px-4 text-center">
         <div>
           <h2 className="text-3xl font-bold mb-4">About Us</h2>
@@ -18,6 +22,7 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Services Section */}
       <section id="services" className="min-h-screen flex items-center justify-center bg-gray-100 px-4 text-center">
         <div>
           <h2 className="text-3xl font-bold mb-4">Our Services</h2>
@@ -30,6 +35,7 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Contact Section */}
       <section id="contact" className="min-h-screen flex items-center justify-center bg-white px-4 text-center">
         <div>
           <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
